@@ -1,0 +1,12 @@
+#!/bin/bash
+
+count=0
+
+for name in ./*.sh 
+do
+
+count=$((count+1))
+
+done
+
+echo ilosc plikow .sh: $count
